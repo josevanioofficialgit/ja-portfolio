@@ -1,0 +1,113 @@
+.hero {
+    /* background-color: #ebe3e0; */
+    background-color: #f6ece7;
+    background-image: url("../../../../public/wickland/mobile/hero.gif");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.frame_1 {
+    background-color: #f6ece7;
+    background-image: url("../../../../public/wickland/mobile/f1.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.frame_2 {
+    background-color: #f5ebe6;
+    background-image: url("../../../../public/wickland/mobile/f2.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.frame_3 {
+    background-color: #f6eae4;
+    background-image: url("../../../../public/wickland/mobile/f3.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.frame_4 {
+    background-color: #f6eae4;
+    background-image: url("../../../../public/wickland/mobile/f3.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.glassmorphism {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
+}
+.nav_items {
+    /* font-size: 14px; */
+    font-weight: bold;
+    color: black;
+}
+.nav_items a {
+    font-size: 12px;
+}
+.nav_items small {
+    cursor: pointer;
+}
+.nav_items .active {
+    text-decoration: underline;
+    text-decoration-color: #bd0c0c;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+}
+
+.chapter1 {
+    background-image: url("../../../../public/wickland/chapter1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.chapter2 {
+    background-image: url("../../../../public/wickland/chapter2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.chapter3 {
+    background-image: url("../../../../public/wickland/chapter3.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact {
+    background-image: url("../../../../public/wickland/city_backgrd.png");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.aboutphoto {
+    background-image: url("../../../../public/wickland/jw.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (min-width: 760px) {
+    .hero {
+        background-color: #ebe3e0;
+        background-image: url("../../../../public/wickland/desktop/hero.gif");
+    }
+    .frame_1 {
+        background-color: #e1d6d2;
+        background-image: url("../../../../public/wickland/desktop/f3.png");
+    }
+    .frame_2 {
+        background-color: #e2d8d4;
+        background-image: url("../../../../public/wickland/desktop/f4.png");
+    }
+    .frame_3 {
+        background-color: #e0d2ce;
+        background-image: url("../../../../public/wickland/desktop/f5.png");
+    }
+    .frame_4 {
+        background-color: #dfd1cb;
+        background-image: url("../../../../public/wickland/desktop/f6.png");
+    }
+}

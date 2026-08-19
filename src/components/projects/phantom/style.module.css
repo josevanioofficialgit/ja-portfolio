@@ -1,0 +1,14 @@
+.hero {
+    background-color: #010d13;
+    background-image: url("../../../../public/phantom/herobackgrd.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 760px) {
+    /* .hero {
+        background-color: #ebe3e0;
+        background-image: url("../../../../public/wickland/test/herobackgrd.png");
+    } */
+}
