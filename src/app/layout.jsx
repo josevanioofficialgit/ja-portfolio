@@ -1,5 +1,5 @@
 import { Geist_Mono, Instrument_Sans, Poppins } from "next/font/google";
-// import { SpeedInsights } from "@vercel/speed-insights/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import Global_Context_Provider from "@/components/Global_Context_Provider";
 import "./globals.css";
 
@@ -28,10 +28,8 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en" className={` ${instrumentSans.variable} ${geistMono.variable} ${poppins.variable} antialiased`}>
             <body>
-                <Global_Context_Provider>
-                    {children}
-                    {/* <SpeedInsights /> */}
-                </Global_Context_Provider>
+                <Global_Context_Provider>{children}</Global_Context_Provider>
+                <SpeedInsights />
             </body>
         </html>
     );
