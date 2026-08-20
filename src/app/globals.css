@@ -45,7 +45,7 @@ body {
     background-repeat: no-repeat;
 }
 .game_2d_miniature {
-    background-image: url("../../public/cuphead/mini.jfif");
+    background-image: url("../../public/cuphead/mini.webp");
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;

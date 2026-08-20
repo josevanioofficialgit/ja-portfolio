@@ -26,7 +26,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
     return (
-        <html lang="en" className={` ${instrumentSans.variable} ${geistMono.variable} ${poppins.variable} antialiased`}>
+        <html lang="en" className={`${instrumentSans.variable} ${geistMono.variable} ${poppins.variable} antialiased`}>
             <body>
                 <Global_Context_Provider>{children}</Global_Context_Provider>
                 <SpeedInsights />
