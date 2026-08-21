@@ -69,7 +69,7 @@ export default function ProjectBlock({ project, projectId, cstyle }) {
             >
                 <div className="absolute top-2 left-2 z-30">
                     <small
-                        className={`${project !== "Soon" ? "bg-orange-500" : ""}  text-white rounded-full px-3 text-[10px] md:text-xs font-bold font_geist_mono flex items-center gap-2`}
+                        className={`${project !== "Soon" ? "bg-orange-500" : ""} text-white rounded-full px-3 text-[10px] md:text-xs font-bold font_geist_mono flex items-center gap-2`}
                     >
                         {project}
                         {project === "Soon" && <Lock color="#ffffff" strokeWidth={4} size={12} />}
@@ -77,6 +77,8 @@ export default function ProjectBlock({ project, projectId, cstyle }) {
                 </div>
 
                 {project === "Soon" && <div className="absolute top-0 left-0 right-0 bottom-0 rounded-2xl overlay_backgrd_soon z-20"></div>}
+
+                {/* For the Bento blocks or grid, some projects needed only a background image hence the use of the matchBackground() functions, but others such as these below required more than just a simple background image. */}
                 {projectId === 2 && <CupHeadMiniature />}
                 {/* {projectId === 3 && <Video src={"/ski_resort/hero_video.mp4"} />} */}
                 {projectId === 5 && <RecommediaMini blockRef={blockRef} />}

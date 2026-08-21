@@ -3,6 +3,7 @@ import { useRef, useEffect, useState } from "react";
 import { X } from "lucide-react";
 import { useGlobal } from "@/components/Global_Context_Provider";
 import WickLand from "@/components/projects/wickland/Home";
+import SkiResort from "@/components/projects/ski_resort/Home";
 
 // Model used to display each project in a bigger view after clicking the miniature
 export default function ProjectDisplay({ project, projectId, setDisplay }) {
@@ -28,11 +29,14 @@ export default function ProjectDisplay({ project, projectId, setDisplay }) {
                         }}
                         className="rounded-full w-4.5 h-4.5 bg-red-400 cursor-pointer flex justify-center items-center"
                     >
+                        {/* Close button */}
                         <X color="#5a0c0c" strokeWidth={2.75} size={12} />
                     </div>
 
+                    {/* Title */}
                     <p>{project}</p>
 
+                    {/* Filler */}
                     <div></div>
                 </div>
 
@@ -41,7 +45,7 @@ export default function ProjectDisplay({ project, projectId, setDisplay }) {
                     className={`bg-black w-full h-[calc(100%-40px)] rounded-b-xl relative overflow-auto ${[1].includes(projectId) ? "hide_scrollbar" : ""}`}
                 >
                     {projectId === 1 && <WickLand />}
-                    {/* <Phantom /> */}
+                    {/* {projectId === 3 && <SkiResort />} */}
                 </div>
             </div>
         </>

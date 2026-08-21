@@ -20,7 +20,7 @@ export default function MobileBentoUI() {
                     <ProjectBlock project={"Soon"} projectId={2} cstyle={""} />
                 </div>
                 <div className="row-span-6">
-                    <ProjectBlock project={"Soon"} projectId={3} cstyle={""} />
+                    <ProjectBlock project={"Ski Resort"} projectId={3} cstyle={""} />
                 </div>
                 <div className="row-span-3 grid grid-cols-12 gap-1">
                     <div className="col-span-6 p-2">

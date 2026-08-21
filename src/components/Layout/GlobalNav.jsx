@@ -33,7 +33,7 @@ export default function GlobalNav() {
                     <h1 className="text-white font-semibold">About Me</h1>
                     <p className="text-[#ffffffcf] font-semibold mt-4">Josevânio António (Full-Stack Web Developer)</p>
                     <p className="text-sm text-[#ffffff86]">Full-Stack Web Developer with 8+ years of experience.</p>
-                    <p className="text-sm text-[#ffffff86]">Thank you for stoping by!</p>
+                    <p className="text-sm text-[#ffffff86]">Thanks for stoping by!</p>
                 </div>
             )}
 

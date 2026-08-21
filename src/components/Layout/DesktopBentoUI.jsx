@@ -17,7 +17,7 @@ export default function DesktopBentoUI() {
 
                     <div className="row-span-8 grid grid-cols-12 gap-1">
                         <div className="col-span-8 md:p-3">
-                            <ProjectBlock project={"Soon"} projectId={3} cstyle={""} />
+                            <ProjectBlock project={"Ski Resort"} projectId={3} cstyle={""} />
                         </div>
                         <div className="col-span-4">
                             <ProjectBlock project={"Soon"} projectId={4} cstyle={""} />
